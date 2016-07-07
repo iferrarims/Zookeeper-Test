@@ -69,6 +69,7 @@ public class Linktest {
 	    for(int i=0;i < size;i++){
 	        testdata[i] = 't';
 	    }
+	    
 
 	    cb = new CyclicBarrier(sessions, new Runnable () {
             public void run() {
